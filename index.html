@@ -102,7 +102,6 @@
                 </ul>
                 <h3>Teams</h3>
                 <p>each club should present teams with the appropriatly skilled leaders and participants.  The minimum group size is 4 and the maximum group size is 16.  each group should have between 2 and 4 adult leaders included in that number</p>
-               <!-- <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">The Rules</a></p>-->
                 <a href="#TheRules" class="link-scroll btn btn-outline-inverse btn-lg">The Rules</a>
 
             </div><!-- .col-sm-10 -->
@@ -225,9 +224,8 @@
                       <span class="icon fa fa-sun-o"></span>
                       <div class="text-content">
                         <h5>Weather</h5>
-                        <p>Pack Warm it will be cold, click for more details
-                        </p>                     
-						<p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                        <p>Pack Warm it will be cold, the area can also have alot of rain. click for more details</p>                     
+						<p><a href="" onclick="populate_and_open_modal(event, 'modal-content-weather');" class="btn btn-outline-inverse btn-sm">read more</a></p>
                       </div>
                     </div><!-- end: .item-content -->
                   </div><!-- end: .grid-item -->               
@@ -237,8 +235,9 @@
                     <div class="item-content clearfix">
                       <span class="icon fa fa-globe"></span>
                       <div class="text-content">
-                        <h5>Aliquam adipiscing eros non elit</h5>
-                        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer ultricies sed ligula eget tempus.</p>
+                        <h5>Navigation</h5>
+                        <p>The use of GPS and Radio's is required as well as uses of compass and map skills</p>
+                        <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-navigation');" class="btn btn-outline-inverse btn-sm">read more</a></p>
                       </div>
                     </div><!-- end: .item-content -->
                   </div><!-- end: .grid-item -->
@@ -266,7 +265,7 @@
                   </div><!-- end: .grid-item -->
                 <!-- content which will be shown in the popup/modal when clicking on the above link 
                      - it is important to set a unique id -->
-                <div class="content-to-populate-in-modal" id="modal-content-1">
+                <div class="content-to-populate-in-modal" id="modal-content-weather">
                   <h1>Weather Details</h1>
                   <p><img data-img-src="assets/images/other_images/weather.svg" class="lazy hover_effect" alt="Lorem Ipsum">
                   The average Maximum temprature is 18.8&deg;C<br/>
@@ -275,7 +274,17 @@
                   This weather station is at only 155m. While HQ is on top of the plateau at 1000m. Therfore we are expecting much colder temperatures at overnight camp locations, so make sure you are prepared.</p>
                   <p>For full weather details see this <a href="http://www.bom.gov.au/climate/averages/tables/cw_060085_All.shtml" target="new">site </a>
                   </p>
-                </div><!-- #modal-content-1 -->
+                </div><!-- #modal-content-weather -->
+                
+                <div class="content-to-populate-in-modal" id="modal-content-navigation">
+                  <h1>Map Compass and Navigation</h1>
+                  <p>For Safety, every hour you will need to report your location, based either from the know wherabouts on your map, or a GPS reading.  This will be broadcast over the UHF.<br/>
+                  The Safety Bearing is to head North until you hit a track or road.  Then west towards the main road into basecamp.</p>
+                  <p>The Map is a custom built map that includes, vector based countours, recently recorded tracks and roads and reasonably accurate vegitation layers.  The terain puts us on top of a plateau, you will notice around the edges of the maps very steep drop offs.  Some of which are considered canyons. IT has been done with such detail that reality has been known to be wrong from relative to this map.</p>
+                  <p></p>
+                  <p><a href="https://www.dropbox.com/s/6517s7nklp2jqxs/Overview%20Draft.pdf?dl=0" target="new">Here </a> is a link to the base map used for this expedition.  You will be supplied with an A3 copy of this map with all controls and control descriptions available.</p>
+                </div><!-- #modal-content-navigation -->
+                
                 </section><!-- end: grid -->
 
             </div><!-- .col-sm-11 -->
@@ -341,13 +350,7 @@
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
-                    <div class="content-to-populate-in-modal" id="modal-content-7">
-                      <img data-img-src="assets/images/other_images/top-image2.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                    </div><!-- #modal-content-7 -->
+                    
                   </article>
 
                   <!-- feature 3 -->
@@ -396,61 +399,70 @@
 
                   <!-- feature 1 -->
                   <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-north');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-3.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/north-photo.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
                       </div>
                       <div class="caption">
                         <h5>From the North</h5>
-                        <p>Travel towards the New Englend Highway, Then Walcha (via Armidale) </p>
+                        <p>Travel towards the New Englend Highway, then Walcha (via Armidale) </p>
                         <p>Lismore, Northern Tablelands, POW, Grafton, Alstonvile</p>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
-                  
+					<div class="content-to-populate-in-modal" id="modal-content-north">
+                      <h1>North Directions</h1>
+                      <img data-img-src="assets/images/other_images/north-directions.png" class="lazy full-width pull-left" alt="Lorem Ipsum">                      
+                      <p>The recomended route is to head towards the New England Highway, whatever seems most feisable. Once you have reached Walcha contiue East on the Oxley Highway, B56. for about 54Km.</p>
+                      <p>After 54Km you will see Kangaroo Flat Road, Turn left on to the road and follow this 20Km until it turns into Moorabank Road.</p>
+                      <p>There will be signposts from this point to guide you, but you contiue approximatly another 15Km until you reach base camp.</p>
+                      <p>A More Detailed Google Map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
+                    </div><!-- #modal-content-North -->                  
                   </article>
 
                   <!-- feature 2 -->
                   <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-7');" class="thumbnail linked">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-south');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-2.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/south-photo.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
                       </div>
                       <div class="caption">
                         <h5>From the South</h5>
-                        <p>Head towards Walcha via the Buckets way</p>
+                        <p>Head towards Walcha via thunderbolts way then east along the Oxley Highway (B56)</p>
                         <p>Central Coast, Avondale, Footprints, Lakeside, Southlakes, Wallsend, Newcastle MC</p>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
-                    <div class="content-to-populate-in-modal" id="modal-content-7">
-                      <img data-img-src="assets/images/other_images/top-image2.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                    </div><!-- #modal-content-7 -->
+                    <div class="content-to-populate-in-modal" id="modal-content-south">
+                      <h1>South Directions</h1>
+                      <img data-img-src="assets/images/other_images/south-directions.png" class="lazy full-width pull-left" alt="Lorem Ipsum">                      
+                      <p>The recomended route is to head towards walcha via thunderbolts way, whatever seems most feisable. Once you have reached Walcha contiue East on the Oxley Highway, B56. for about 54Km.</p>
+                      <p>After 54Km you will see Kangaroo Flat Road, Turn left on to the road and follow this 20Km until it turns into Moorabank Road.</p>
+                      <p>There will be signposts from this point to guide you, but you contiue approximatly another 15Km until you reach base camp.</p>
+                      <p>A More Detailed Google Map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
+                    </div><!-- #modal-content-south -->
                   </article>
 
                   <!-- feature 3 -->
                   <article class="feature-col col-md-4">
-                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-7');" class="thumbnail linked">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-east');" class="thumbnail linked">
                       <div class="image-container">
-                        <img data-img-src="assets/images/other_images/project-2.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                        <img data-img-src="assets/images/other_images/east-photo.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
                       </div>
                       <div class="caption">
                         <h5>From the East</h5>
-                        <p>Head towards Wauchope, then West Along the Oxley Hightway (B86)</p>
+                        <p>Head towards Wauchope, then west along the Oxley Highway (B56)</p>
                         <p>Coffs Harbour, Kempsey, Manning</p>
                       </div><!-- .caption -->
                     </a><!-- .thumbnail -->
 
-                    <div class="content-to-populate-in-modal" id="modal-content-7">
-                      <img data-img-src="assets/images/other_images/top-image2.jpg" class="lazy full-width" alt="Lorem Ipsum">
-                      <h1>Sed scelerisque</h1>
-                      <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
-                      <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                    </div><!-- #modal-content-7 -->
+					<div class="content-to-populate-in-modal" id="modal-content-east">
+                      <h1>East Directions</h1>
+                      <img data-img-src="assets/images/other_images/east-directions.png" class="lazy full-width" alt="Lorem Ipsum">                      
+                      <p>The recomended route is to head towards Wauchope, whatever seems most feisable. Once you have reached Walcha contiue West on the Oxley Highway, B56. for about 107Km.</p>
+                      <p>After 107Km you will see Kangaroo Flat Road, Turn right on to the road and follow this 20Km until it turns into Moorabank Road.</p>
+                      <p>There will be signposts from this point to guide you, but you contiue approximatly another 15Km until you reach base camp.</p>
+                      <p>A More Detailed Google Map is <a href="https://goo.gl/maps/EnBlV" target="new">here</a></p>                      
+                    </div><!-- #modal-content-North -->        
                   </article>
 
 
