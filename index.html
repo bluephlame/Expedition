@@ -40,6 +40,20 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    
+<SCRIPT LANGUAGE="JavaScript">
+function DayDiff()
+{
+	var CurrentDate = new Date();
+	var TYear	= CurrentDate.getFullYear();
+        var TDay = new Date("May, 25, 2015");
+        TDay.getFullYear(TYear);
+        var DayCount=(TDay-CurrentDate)/(1000*60*60*24);
+        DayCount=Math.round(DayCount); 
+    return(DayCount);
+}
+</SCRIPT>
+
   </head>
 
   <body data-default-background-img="assets/images/other_images/bg5.jpg" data-overlay="true" data-overlay-opacity="0.50">
@@ -94,14 +108,14 @@ Come and join in with over 500 Pathfinders, across the whole conference this Que
 
                 <h1 class="section-title">The Event</h1>
 
-                <p class="feature-paragraph"><img data-img-src="assets/images/other_images/transp-image5b.png" class="lazy pull-right" >While rogaining is usually a competitive  this event is designed for you and your club to stretch their navigation and hiking skills and have a great time exploring the bush.  While this is not a competition we will be tracking scores and posting a leaderboard to encourage you to plan a more optimal route and get as many markers as you can</p>
+                <p class="feature-paragraph"><img data-img-src="assets/images/other_images/transp-image5b.png" class="lazy pull-right" >While rogaining is usually a competitive  this event is designed for you and your club to stretch their navigation and hiking skills and have a great time exploring the bush.  While this is not a competition we will be tracking scores and posting a leader board to encourage you to plan a more optimal route and get as many markers as you can</p>
                 
-                <p>The categories this year replace grades, By dividing up into teams of equivelent skill each team will travel at the speeds they are comfortable with.</p>
+                <p>The categories this year replace grades, By dividing up into teams of equivalent skill each team will travel at the speeds they are comfortable with.</p>
 <ul>
-                <li><b>Beginers</b> - you are in your early years of pathfinders and have not yet mastered the skills of map reading, compass and navigation.  You will likely travel between 10-15Km over the weekend</li>
-                <li><b>Intermediate</b> - you understand the basics and are now looking to push yourself.  You can move comfortably with your pack.  You still need help with your map and compass but can find the ridges, gully's and spurs. You will likely travel between 15 and 25km over the weekend</li>
-                <li><b>Experienced</b> - Your team is made up of senior pathfinders who "know the ropes".  Hills are not a problem and you work together to collect as many points as you can.  You should be able to cover 25-25Km over the weekend. </li>
-                <li><b>Advanced</b> - Weight minimisation, tight navigation, discipline and speed.  The thickest bush would not slow you down. Can your team collect all the markers in the allocated time? </li>
+                <li><b>Beginners</b> - you are in your early years of pathfinders and have not yet mastered the skills of map reading, compass and navigation.  You will likely travel between 10-15Km over the weekend</li>
+                <li><b>Intermediate</b> - you understand the basics and are now looking to push yourself.  You can move comfortably with your pack.  You still need help with your map and compass but can find the ridges, gully's and spurs. You will likely travel between 15 and 25 km over the weekend</li>
+                <li><b>Experienced</b> - Your team is made up of senior pathfinders who "know the ropes".  Hills are not a problem and you work together to collect as many points as you can.  You should be able to cover 25-35Km over the weekend. </li>
+                <li><b>Advanced</b> - Weight minimization, tight navigation, discipline and speed.  The thickest bush would not slow you down. Can your team collect all the markers in the allocated time? </li>
                 </ul>
                 <a href="#TheLocation" class="link-scroll btn btn-outline-inverse btn-lg">The Location</a>
 
@@ -113,7 +127,7 @@ Come and join in with over 500 Pathfinders, across the whole conference this Que
           <div class="content-wrapper clearfix">
             <div class="col-sm-10 col-md-9 pull-right">
                 <h1 class="section-title">The Location</h1>
-                <p>The weekend will have us trekking through elegant vegetation of Cool Temperate Rainforest dominated by Antarctic Beech and ferns, significant ecological communities of the swamplands of Bishops swamp and the snowgum woodlands regenerating after over 100 years of stock grazing. Experienced and advanced teams will enjoy the ruggedness of steep spurs and thick rainforest.</p>
+                <p>The weekend will have us trekking through elegant vegetation of Cool Temperate Rain forest dominated by Antarctic Beech and ferns, significant ecological communities of the swamplands of Bishops swamp and the snow gum woodlands regenerating after over 100 years of stock grazing. Experienced and advanced teams will enjoy the ruggedness of steep spurs and thick rain forest.</p>
                 
                 <p class="feature-paragraph">The names Werrikimbe and Mooraback are believed to be aboriginal in origin, but their meaning is unclear.  It has been suggested that Werrikimbe means 'meeting place of three rivers' as the Hastings and Forbes Rivers as well as Kunderang brook, a tributary of the Macleay River, all begin in Werrikimbe national park.
 </p>
@@ -158,6 +172,8 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                   <h4>Out of bounds</h4>
                   <p>Entering areas of the maps marked out of bounds or not mapped will result in a disqualification.  These are for safety or private property that we do not have permission to use</p>
                   <p>Please also note any areas of the map marked for special care or avoidance, these will be displayed on the master map at HQ</p>
+                  <h4>Wilderness area's </h4>
+                  <p>To the south of the map is a wilderness area.  There is an area for camping, this is for experienced and advanced groups who can practice wilderness camping techniques. You will need to register at the racecourse check point and head back into the wilderness to camp in a small group.</p> 
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
@@ -172,8 +188,8 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                       <li>A Radio (per specifications in Comms)</li>
                       <li>A First Aid Kit (One per group)</li>                      
                       </ul>
-                      <p>It is highly recommended that each group carries a current PLB for use in emergencies only.  This should only be used when all efforts to contact HQ have failed and it is Monday evening, or an acute medical emergency.  HQ will endevour to asses any situation and provide medical evacuation for less sever incidents before calling on external assistance.</p>
-                      <a href="" onClick="populate_and_open_modal(event, 'modal-content-gearlist')">Complete gear list</a>
+                      <p>It is highly recommended that each group carries a current PLB for use in emergencies only.  This should only be used when all efforts to contact HQ have failed and it is Monday evening, or an acute medical emergency.  HQ will endeavor to asses any situation and provide medical evacuation for less sever incidents before calling on external assistance.</p>
+                      <a href="" onClick="populate_and_open_modal(event, 'modal-content-gearlist')" class="btn btn-outline-inverse btn-lg">Complete gear list</a>
                     </div>
                 
     <div class="content-to-populate-in-modal" id="modal-content-gearlist">
@@ -226,12 +242,12 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                       </tr>
                       </Table>
 					  </div>
-                      <h4>Camp Protocols</h4>
+                      <h4>Camp protocols</h4>
                       <p>Each night camps must be quiet by 22:00</p>
- <h5>Camp Clean up</h5>
+ <h5>Camp clean up</h5>
                       <p>When leaving camp there is no checkout, but if you leave a mess that's -1000 points.  But Pathfinders always leave the camp as they found it.</p>
                       <h5>Lost or Displaced</h5>
-                      <p>If you feel that it is unsafe to continue to the closest campsite, stop and camp at an appropriate place.  Make contact with HQ to inform them of your decision.  Please ensure that safety is concidered above making the curfews.</p>
+                      <p>If you feel that it is unsafe to continue to the closest campsite, stop and camp at an appropriate place.  Make contact with HQ to inform them of your decision.  Please ensure that safety is considered above making the curfews.</p>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
@@ -259,7 +275,7 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
 </thead>
 <tbody>
 <tr>
-<Td>5 and 35</Td><td>Emergency use only (established by law)</td> <td>	Offence to use these channels unless for emergency purposes</td>
+<Td>5 and 35</Td><td>Emergency use only (established by law)</td> <td>	Offense to use these channels unless for emergency purposes</td>
 </tr>
 <tr>
 <td>11</td><td>	Calling (established by law)</td><td>	Call then switch to conversation channel</td>
@@ -350,10 +366,10 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                 <div class="content-to-populate-in-modal" id="modal-content-weather">
                   <h1>Weather Details</h1>
                   <p><img data-img-src="assets/images/other_images/weather.svg" class="lazy hover_effect" >
-                  The average Maximum temprature is 18.8&deg;C<br/>
-                  The average Minimum temperture is&nbsp;&nbsp; 7.0&deg;C<br/>
+                  The average Maximum temperature is 18.8&deg;C<br/>
+                  The average Minimum temperature is&nbsp;&nbsp; 7.0&deg;C<br/>
                   The lowest recorded temperature is -2.6&deg;C </p><p>
-                  This weather station is at only 155m. While HQ is on top of the plateau at 1000m. Therfore we are expecting much colder temperatures at overnight camp locations, so make sure you are prepared.</p>
+                  This weather station is at only 155m. While HQ is on top of the plateau at 1000m. Therefore we are expecting much colder temperatures at overnight camp locations, so make sure you are prepared.</p>
                   <p>For full weather details see this <a href="http://www.bom.gov.au/climate/averages/tables/cw_060085_All.shtml" target="new">site </a>
                   </p>
                 </div><!-- #modal-content-weather -->
@@ -361,10 +377,10 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                 <div class="content-to-populate-in-modal" id="modal-content-navigation">
                   <h1>Map Compass and Navigation</h1><span class="icon fa fa-compass pull-right" style="font-size:8em;"></span>
                   <p>For safety, every hour you will need to report your location, based either from the known whereabouts on your map, or a GPS reading.  This will be broadcast over the UHF.<br/>
-                  The safety bearing is to head north until you hit a track or road.  Then west towards the main road into basecamp.</p>
+                  The safety bearing is to head north until you hit a track or road.  Then west towards the main road into base camp.</p>
                   <p>The map is a custom built map that includes, vector based contours, recently recorded tracks and roads and reasonably accurate vegetation layers.  The terrain puts us on top of a plateau, you will notice around the edges of the maps very steep drop offs. Some of which are considered canyons. It has been done with such detail that reality has been known to be wrong relative to this map.</p>
                   <p></p>
-                  <p><a href="https://www.dropbox.com/s/6517s7nklp2jqxs/Overview%20Draft.pdf?dl=0" target="new">Here </a> is a link to the base map used for this expedition.  You will be supplied with an A3 copy of this map with all controls and control descriptions available.</p>
+                  <p><a href="https://www.dropbox.com/s/vpoxb5oltjsowcq/Expedition%201_25000%20No%20Controls.pdf?dl=1" target="new">Here </a> is a link to the base map used for this expedition.  You will be supplied with an A3 copy of this map with all controls and control descriptions available.</p>
                 </div><!-- #modal-content-navigation -->
                 
                 <div class="content-to-populate-in-modal" id="modal-content-sanitation">
@@ -385,7 +401,7 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                 <p>If a team cannot form with the appropriately skilled navigators, we will try and supplement the teams with skilled personal that is not associated with a club. If your club has teams that require these skills <a href="mailto:justin@boyd.net.au">please email.</a></p>
                 <p>Teams must stay together and reach each control at the same time.  Failure to all reach a control will result in disqualification.</p>
                 <h4>Injury</h4>
-                <p>In the event of an injury or illness, the team will need to stay together until help arrives. Only at the descression of event staff will participants be left in the care of first aid. (I'm too tired just wont cut it sorry)</p>
+                <p>In the event of an injury or illness, the team will need to stay together until help arrives. Only at the discretion of event staff will participants be left in the care of first aid. (I'm too tired just wont cut it sorry)</p>
                 <p>The Team will be able to continue down to a minimum of four participants as long as the appropriate leaders are still with the group.</p>
                 </div><!-- #modal-content-groups -->
                 
@@ -399,16 +415,26 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 pull-right">
                 <h1 class="section-title">Registration Process</h1>
+
+                
+                
+<SCRIPT LANGUAGE="JavaScript">
+	<!-- Hide content from non Javascript browsers
+	var z1 = DayDiff();
+	document.write("<h4 class=\"text-danger\">Register by May 25 (" + z1 + " days left)</h4>");
+	// End of hiding JavaScript code from old browsers -->
+</SCRIPT>                
                 <p>The registration process can be completed in 3 easy steps.</p>
                 <ol>
                 <li>Form groups in your club.</li>
                 <li>Give your group a name</li>
-                <li>Individually register on the signup page and pay your camp fee of $35.00</li>
+                <li>Individually register on the registration page and pay your camp fee of $35.00</li>
                 </ol>
                 <p>
-                Please only continue to the signup page once you have confirmed your group name with your club this will make the registration processes simpler at the event.  Also confirm if you will be paying the fee directly to the club, or via this site.</p>
-                <p>Each participant, leader or volunteer must fill out the registration form so that we have your current details.</p>                
-                <a href="https://events.adventist.org.au/Registration/Event/734" class="btn btn-outline-inverse btn-lg" > Signup Page</a>
+                Please only continue to the registration page once you have confirmed your group name with your club this will make the registration processes simpler at the event.  Also confirm if you will be paying the fee directly to the club, or via this site.</p>
+                
+                <p><b> Each participant, leader or volunteer must fill out the registration form so that we have your current details.</b></p>                
+                <a href="https://events.adventist.org.au/Registration/Event/734" class="btn btn-outline-inverse btn-lg" >Registration Page</a>
                 <p></p>                
                 <a href="#GettingThere" class="link-scroll btn btn-outline-inverse btn-lg">Getting There</a>
             </div><!-- .col-sm-10 -->
@@ -417,8 +443,7 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
 		<article id="GettingThere" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg5.jpg">
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 pull-right">
-                <h1 class="section-title">Getting There</h1>
-                <p><i>There is a 600m walk to the campsite from the carpark.</i></p>
+                <h1 class="section-title">Getting There</h1>              
                 <section class="feature-columns row clearfix">
                   <!-- feature 1 -->
                   <article class="feature-col col-md-4">
@@ -435,10 +460,10 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
 					<div class="content-to-populate-in-modal" id="modal-content-north">
                       <h1>North Directions</h1>
                       <img data-img-src="assets/images/other_images/north-directions.png" class="lazy full-width pull-left">                      
-                      <p>The recomended route is to head towards the New England Highway, whatever seems most feisable. Once you have reached Walcha continue east on the Oxley Highway, B56. for about 54Km.</p>
+                      <p>The recommended route is to head towards the New England Highway, whatever seems most feasible. Once you have reached Walcha continue east on the Oxley Highway, B56. for about 54Km.</p>
                       <p>After 54Km you will see Kangaroo Flat Road, Turn left on to the road and follow this 20Km until it turns into Moorabank Road.</p>
-                      <p>There will be signposts from this point to guide you, but you continue approximatly another 15Km until you reach base camp.</p>
-                      <p>A more detailed google map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
+                      <p>There will be signposts from this point to guide you, but you continue approximately another 15Km until you reach base camp.</p>
+                      <p>A more detailed Google map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
                     </div><!-- #modal-content-North -->                  
                   </article>
 
@@ -458,10 +483,10 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
                     <div class="content-to-populate-in-modal" id="modal-content-south">
                       <h1>South Directions</h1>
                       <img data-img-src="assets/images/other_images/south-directions.png" class="lazy full-width pull-left">                      
-                      <p>The recomended route is to head towards walcha via Thunderbolts way, whatever seems most feisable. Once you have reached Walcha continue East on the Oxley Highway (B56) for about 54 km.</p>
+                      <p>The recommended route is to head towards walcha via Thunderbolts way, whatever seems most feasible. Once you have reached Walcha continue East on the Oxley Highway (B56) for about 54 km.</p>
                       <p>After 54 km you will see Kangaroo Flat Road, Turn left on to the road and follow this 20 km until it turns into Moorabank Road.</p>
-                      <p>There will be signposts from this point to guide you, but you continue approximatly another 15Km until you reach base camp.</p>
-                      <p>A more detailed google map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
+                      <p>There will be signposts from this point to guide you, but you continue approximately another 15Km until you reach base camp.</p>
+                      <p>A more detailed Google map is <a href="https://goo.gl/maps/7GV0n" target="new">here</a></p>                      
                     </div><!-- #modal-content-south -->
                     
                   </article>
@@ -482,10 +507,10 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
 					<div class="content-to-populate-in-modal" id="modal-content-east">
                       <h1>East Directions</h1>
                       <img data-img-src="assets/images/other_images/east-directions.png" class="lazy full-width" >                      
-                      <p>The recomended route is to head towards Wauchope, whatever seems most feisable. Once you have reached Walcha continue west on the Oxley Highway, B56. for about 107Km.</p>
+                      <p>The recommended route is to head towards Wauchope, whatever seems most feasible. Once you have reached Walcha continue west on the Oxley Highway, B56. for about 107Km.</p>
                       <p>After 107 km you will see Kangaroo Flat Road, Turn right on to the road and follow this 20 km until it turns into Moorabank Road.</p>
-                      <p>There will be signposts from this point to guide you, but you continue approximatly another 15 km until you reach base camp.</p>
-                      <p>A more detailed google map is <a href="https://goo.gl/maps/EnBlV" target="new">here</a></p>                      
+                      <p>There will be signposts from this point to guide you, but you continue approximately another 15 km until you reach base camp.</p>
+                      <p>A more detailed Google map is <a href="https://goo.gl/maps/EnBlV" target="new">here</a></p>                      
                     </div><!-- #modal-content-North -->        
                   </article>
                                 <a href="#Results" class="link-scroll btn btn-outline-inverse btn-lg">Results</a>
@@ -497,7 +522,7 @@ In the area you will see a lot of wildlife in birds, marsupials and if you are v
           <div class="content-wrapper clearfix">
             <div class="col-sm-11 pull-right">
                 <h1 class="section-title">Results</h1>
-                <p>Check out here after the event for the leaderboard.</p>                
+                <p>Check out here after the event for the leader board.</p>                
             </div>
            </div>
 		</article>
